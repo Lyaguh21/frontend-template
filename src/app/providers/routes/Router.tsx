@@ -1,8 +1,8 @@
+import { About } from "@/pages/About";
+import { Error404 } from "@/pages/Errors/Error404";
+import { Main } from "@/pages/Main";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainLayout from "../../layouts/MainLayout/MainLayout";
-import Main from "../../pages/Main/Main.page";
-import Error404 from "../../pages/Errors/Error404/Error404.page";
-import About from "../../pages/About/About.page";
+import { MainLayout } from "../layouts/MainLayout";
 
 const router = createBrowserRouter([
   {
