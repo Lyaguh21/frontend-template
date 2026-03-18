@@ -56,7 +56,7 @@ Lyaguh-Template
 ├─ tsconfig.json
 ├─ tsconfig.node.json
 ├─ vite.config.ts
-└─ yarn.lock
+
 
 ```
 
