@@ -1,8 +1,9 @@
-import { About } from "@/pages/About";
-import { Error404 } from "@/pages/Errors/Error404";
-import { Main } from "@/pages/Main";
+import { Error404 } from "@/pages/errors/Error404";
+import { Main } from "@/pages/main";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { MainLayout } from "../layouts/MainLayout";
+
+import { Login, Register } from "@/pages/auth";
+import MainLayout from "../layouts/MainLayout";
 
 const router = createBrowserRouter([
   {
@@ -13,9 +14,18 @@ const router = createBrowserRouter([
         path: "/",
         element: <Main />,
       },
+    ],
+  },
+  {
+    path: "/auth",
+    children: [
       {
-        path: "/about",
-        element: <About />,
+        path: "/auth/login",
+        element: <Login />,
+      },
+      {
+        path: "/auth/register",
+        element: <Register />,
       },
     ],
   },

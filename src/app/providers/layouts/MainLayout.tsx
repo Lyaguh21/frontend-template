@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
-import NavLayout from "./components/NavLayout";
+import Header from "./components/header/Header";
 
 export default function MainLayout() {
   return (
     <>
-      <NavLayout />
+      <Header />
       <Outlet />
     </>
   );

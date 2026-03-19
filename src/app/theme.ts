@@ -5,16 +5,25 @@ export const theme = createTheme({
 
   colors: {
     primary: [
-      "#f1efff",
-      "#dfdcf7",
-      "#bcb7e6",
-      "#978fd6",
-      "#6e63c4",
-      "#6357c0",
-      "#594cbd",
-      "#493ea7",
-      "#403696",
-      "#352e86",
+      "#fdf2f4",
+      "#f5d5da",
+      "#e8a8b2",
+      "#d97a89",
+      "#c94d61",
+      "#b32d44",
+      "#8b1a2f",
+      "#721527",
+      "#59101e",
+      "#400b16",
     ],
+  },
+
+  breakpoints: {
+    xs: "30em",
+    sm: "48em",
+    md: "64em",
+    lg: "74em",
+    xl: "90em",
+    xxl: "120em",
   },
 });
